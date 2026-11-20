@@ -1,0 +1,15 @@
+# Runtime (app + API + prediction)
+pandas==3.0.6
+numpy==2.5.4
+scipy==1.18.1
+scikit-learn==1.9.1
+pyarrow==26.0.1
+joblib==1.6.0
+lightgbm==4.7.0
+xgboost==3.4.1
+catboost==1.2.10
+streamlit==1.67.0
+plotly==7.1.0
+fastapi==0.165.0
+uvicorn==0.54.0
+pydantic==2.14.4

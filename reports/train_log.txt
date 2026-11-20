@@ -1,0 +1,16 @@
+2026/11/20 03:20:15 INFO mlflow.store.db.utils: Creating initial MLflow database tables...
+2026/11/20 03:20:15 INFO mlflow.store.db.utils: Updating database tables
+2026/11/20 03:20:15 INFO mlflow.tracking.fluent: Experiment with name 'agrisense-yield' does not exist. Creating a new experiment.
+03:20:16 rows train=103786 valid=14739 test=17033  features=41
+03:20:16 tuning LightGBM, 12 trials x 3 expanding folds ...
+03:23:34 best lightgbm {'num_leaves': 37, 'min_child_samples': 124, 'feature_fraction': 0.8614152406643687, 'bagging_fraction': 0.8937015931994442, 'lambda_l2': 11.015311109174112, 'objective': 'huber', 'alpha': 0.35, 'bagging_freq': 1} rounds 407 cv_mae 0.2078
+03:24:35 rounds xgb 258 catboost 598
+03:24:36 ridge           valid skill -1.2%  test skill +1.4%  (1s)
+03:26:20 random_forest   valid skill +1.2%  test skill +2.2%  (104s)
+03:26:29 xgboost         valid skill +3.0%  test skill +2.4%  (9s)
+03:27:28 catboost        valid skill +3.4%  test skill +3.2%  (59s)
+03:27:37 lightgbm_tuned  valid skill +4.3%  test skill +4.2%  (9s)
+03:27:37 selected on validation: lightgbm_tuned
+03:27:38 conformal coverage {'nominal': 0.8, 'test_all': 0.753008865144132, 'test_weather_complete': 0.7494895444624375, 'test_drought_spi_lt_-1': 0.7336641852770885, 'n_drought': 3627, 'test_normal': 0.7549167927382754}
+03:27:47 final (train+valid) test skill 4.7 %
+03:28:16 done

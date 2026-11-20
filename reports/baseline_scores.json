@@ -1,0 +1,71 @@
+{
+  "valid": {
+    "last_year": {
+      "n": 14358,
+      "MAE": 273.6,
+      "RMSE": 505.9,
+      "MedAPE_pct": 13.7,
+      "R2": 0.908
+    },
+    "mean_last_5y": {
+      "n": 14358,
+      "MAE": 265.7,
+      "RMSE": 488.7,
+      "MedAPE_pct": 13.8,
+      "R2": 0.914
+    },
+    "local_trend": {
+      "n": 14358,
+      "MAE": 282.1,
+      "RMSE": 517.7,
+      "MedAPE_pct": 14.8,
+      "R2": 0.903
+    }
+  },
+  "test": {
+    "last_year": {
+      "n": 16504,
+      "MAE": 340.2,
+      "RMSE": 626.1,
+      "MedAPE_pct": 14.7,
+      "R2": 0.884
+    },
+    "mean_last_5y": {
+      "n": 16504,
+      "MAE": 333.0,
+      "RMSE": 588.7,
+      "MedAPE_pct": 15.2,
+      "R2": 0.897
+    },
+    "local_trend": {
+      "n": 16504,
+      "MAE": 348.7,
+      "RMSE": 629.9,
+      "MedAPE_pct": 15.6,
+      "R2": 0.882
+    }
+  },
+  "test_incl_failures": {
+    "last_year": {
+      "n": 16559,
+      "MAE": 341.5,
+      "RMSE": 629.9,
+      "MedAPE_pct": 14.7,
+      "R2": 0.882
+    },
+    "mean_last_5y": {
+      "n": 16559,
+      "MAE": 335.0,
+      "RMSE": 594.2,
+      "MedAPE_pct": 15.2,
+      "R2": 0.895
+    },
+    "local_trend": {
+      "n": 16559,
+      "MAE": 350.3,
+      "RMSE": 634.1,
+      "MedAPE_pct": 15.7,
+      "R2": 0.881
+    }
+  }
+}

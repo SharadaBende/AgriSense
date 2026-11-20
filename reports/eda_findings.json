@@ -1,0 +1,179 @@
+{
+  "trend": {
+    "Rice": {
+      "growth_pct_per_yr_1966_89": 2.45,
+      "growth_pct_per_yr_1990_2017": 1.55,
+      "yield_1966_70": 998,
+      "yield_2013_17": 2591
+    },
+    "Wheat": {
+      "growth_pct_per_yr_1966_89": 3.31,
+      "growth_pct_per_yr_1990_2017": 1.39,
+      "yield_1966_70": 1140,
+      "yield_2013_17": 3283
+    },
+    "Maize": {
+      "growth_pct_per_yr_1966_89": 1.47,
+      "growth_pct_per_yr_1990_2017": 3.02,
+      "yield_1966_70": 1041,
+      "yield_2013_17": 3033
+    },
+    "Cotton": {
+      "growth_pct_per_yr_1966_89": 2.44,
+      "growth_pct_per_yr_1990_2017": 2.96,
+      "yield_1966_70": 119,
+      "yield_2013_17": 412
+    }
+  },
+  "crop_mix_share_1966_70_vs_2013_17": {
+    "cereal": [
+      43.7,
+      49.6
+    ],
+    "millet": [
+      24.5,
+      8.9
+    ],
+    "pulse": [
+      15.1,
+      16.0
+    ],
+    "oilseed": [
+      9.1,
+      15.4
+    ],
+    "cash": [
+      7.6,
+      10.2
+    ]
+  },
+  "rice_state_yield_2008_17": {
+    "Punjab": 3995.0,
+    "Tamil Nadu": 3476.0,
+    "Andhra Pradesh": 3335.0,
+    "Telangana": 3210.0,
+    "Haryana": 3098.0
+  },
+  "drought_penalty_pct": {
+    "Rice": {
+      "severe_deficit_lt70": -11.1,
+      "n_district_years": 1954
+    },
+    "Maize": {
+      "severe_deficit_lt70": -7.2,
+      "n_district_years": 1940
+    },
+    "Pearl Millet": {
+      "severe_deficit_lt70": -14.1,
+      "n_district_years": 1507
+    },
+    "Kharif Sorghum": {
+      "severe_deficit_lt70": -11.7,
+      "n_district_years": 1533
+    },
+    "Groundnut": {
+      "severe_deficit_lt70": -11.4,
+      "n_district_years": 1604
+    },
+    "Cotton": {
+      "severe_deficit_lt70": -7.9,
+      "n_district_years": 1188
+    }
+  },
+  "rain_corr": {
+    "Rice": {
+      "Winter\n(Jan-Feb)": -0.01,
+      "Pre-monsoon\n(Mar-May)": -0.02,
+      "Monsoon\n(Jun-Sep)": 0.22,
+      "Post-monsoon\n(Oct-Dec)": 0.05
+    },
+    "Maize": {
+      "Winter\n(Jan-Feb)": -0.01,
+      "Pre-monsoon\n(Mar-May)": -0.03,
+      "Monsoon\n(Jun-Sep)": 0.02,
+      "Post-monsoon\n(Oct-Dec)": 0.01
+    },
+    "Pearl Millet": {
+      "Winter\n(Jan-Feb)": 0.01,
+      "Pre-monsoon\n(Mar-May)": -0.02,
+      "Monsoon\n(Jun-Sep)": 0.17,
+      "Post-monsoon\n(Oct-Dec)": -0.03
+    },
+    "Kharif Sorghum": {
+      "Winter\n(Jan-Feb)": 0.0,
+      "Pre-monsoon\n(Mar-May)": -0.03,
+      "Monsoon\n(Jun-Sep)": 0.09,
+      "Post-monsoon\n(Oct-Dec)": 0.01
+    },
+    "Rabi Sorghum": {
+      "Winter\n(Jan-Feb)": -0.0,
+      "Pre-monsoon\n(Mar-May)": -0.01,
+      "Monsoon\n(Jun-Sep)": 0.07,
+      "Post-monsoon\n(Oct-Dec)": 0.07
+    },
+    "Groundnut": {
+      "Winter\n(Jan-Feb)": -0.02,
+      "Pre-monsoon\n(Mar-May)": -0.03,
+      "Monsoon\n(Jun-Sep)": 0.16,
+      "Post-monsoon\n(Oct-Dec)": 0.07
+    },
+    "Cotton": {
+      "Winter\n(Jan-Feb)": -0.01,
+      "Pre-monsoon\n(Mar-May)": -0.06,
+      "Monsoon\n(Jun-Sep)": 0.07,
+      "Post-monsoon\n(Oct-Dec)": 0.05
+    },
+    "Sugarcane": {
+      "Winter\n(Jan-Feb)": 0.0,
+      "Pre-monsoon\n(Mar-May)": -0.03,
+      "Monsoon\n(Jun-Sep)": 0.07,
+      "Post-monsoon\n(Oct-Dec)": 0.02
+    },
+    "Wheat": {
+      "Winter\n(Jan-Feb)": -0.01,
+      "Pre-monsoon\n(Mar-May)": 0.0,
+      "Monsoon\n(Jun-Sep)": 0.15,
+      "Post-monsoon\n(Oct-Dec)": 0.03
+    },
+    "Chickpea": {
+      "Winter\n(Jan-Feb)": -0.02,
+      "Pre-monsoon\n(Mar-May)": -0.02,
+      "Monsoon\n(Jun-Sep)": 0.16,
+      "Post-monsoon\n(Oct-Dec)": 0.03
+    },
+    "Rapeseed And Mustard": {
+      "Winter\n(Jan-Feb)": -0.02,
+      "Pre-monsoon\n(Mar-May)": -0.03,
+      "Monsoon\n(Jun-Sep)": 0.05,
+      "Post-monsoon\n(Oct-Dec)": -0.06
+    }
+  },
+  "driest_monsoon_years": {
+    "2002": 0.72,
+    "1987": 0.752,
+    "2009": 0.766,
+    "1972": 0.791,
+    "2000": 0.799,
+    "1979": 0.832,
+    "2014": 0.84,
+    "2015": 0.861
+  },
+  "known_droughts_in_8_driest": [
+    2002,
+    1987,
+    2009,
+    1972,
+    1979,
+    2014,
+    2015
+  ],
+  "n_districts_wheat_map": 261,
+  "n_districts_rice_vol_map": 293,
+  "rice_volatility_top5": {
+    "Dungarpur": 0.62,
+    "Palamau": 0.567,
+    "Banswara": 0.52,
+    "Udaipur": 0.489,
+    "Solapur": 0.461
+  }
+}

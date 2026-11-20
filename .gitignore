@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+mlflow.db
+mlruns/
+catboost_info/
+.pytest_cache/
+.DS_Store
+# rebuildable large files (python -m src.make_dataset / src.features / src.exports)
+data/processed/agrisense.db
+data/processed/model_table.parquet
+exports/yield_history.csv

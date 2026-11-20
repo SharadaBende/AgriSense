@@ -1,0 +1,179 @@
+{
+  "model": "lightgbm_tuned",
+  "kind": "lightgbm",
+  "params": {
+    "num_leaves": 37,
+    "min_child_samples": 124,
+    "feature_fraction": 0.8614152406643687,
+    "bagging_fraction": 0.8937015931994442,
+    "lambda_l2": 11.015311109174112,
+    "objective": "huber",
+    "alpha": 0.35,
+    "bagging_freq": 1
+  },
+  "rounds": 491,
+  "features": [
+    "crop",
+    "area_1000ha",
+    "y_lag1",
+    "y_lag2",
+    "y_lag3",
+    "y_roll3",
+    "y_roll5",
+    "y_roll8_std",
+    "y_cv8",
+    "y_max5",
+    "y_min5",
+    "n_hist10",
+    "y_trend_slope",
+    "y_trend_pred",
+    "area_roll5",
+    "area_ratio",
+    "annual_ratio",
+    "clim_annual_mm",
+    "monsoon_ratio",
+    "clim_monsoon_mm",
+    "pre_ratio",
+    "winter_ratio",
+    "post_ratio",
+    "spi_annual",
+    "spi_monsoon",
+    "spi_early",
+    "spi_late",
+    "jun_ratio",
+    "jul_ratio",
+    "aug_ratio",
+    "sep_ratio",
+    "n_deficit_months",
+    "jul_aug_share",
+    "monsoon_ratio_prev",
+    "spi_monsoon_prev",
+    "annual_ratio_prev",
+    "monsoon_ratio_2yr",
+    "state_name",
+    "lon",
+    "lat",
+    "season_type"
+  ],
+  "categorical": [
+    "crop",
+    "state_name",
+    "season_type"
+  ],
+  "levels": {
+    "crop": [
+      "Barley",
+      "Chickpea",
+      "Cotton",
+      "Groundnut",
+      "Kharif Sorghum",
+      "Maize",
+      "Pearl Millet",
+      "Pigeonpea",
+      "Rapeseed And Mustard",
+      "Rice",
+      "Sesamum",
+      "Sugarcane",
+      "Wheat"
+    ],
+    "state_name": [
+      "Andhra Pradesh",
+      "Assam",
+      "Bihar",
+      "Chhattisgarh",
+      "Gujarat",
+      "Haryana",
+      "Himachal Pradesh",
+      "Jharkhand",
+      "Karnataka",
+      "Kerala",
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Odisha",
+      "Punjab",
+      "Rajasthan",
+      "Tamil Nadu",
+      "Telangana",
+      "Uttar Pradesh",
+      "Uttarakhand",
+      "West Bengal"
+    ],
+    "season_type": [
+      "annual",
+      "kharif",
+      "rabi"
+    ]
+  },
+  "target": "target_logratio",
+  "conformal_signed_residual_q10_q90": {
+    "Barley": [
+      -0.32258753026333237,
+      0.21366405286274695
+    ],
+    "Chickpea": [
+      -0.25460033358912293,
+      0.29560703971449964
+    ],
+    "Cotton": [
+      -0.24430748980913083,
+      0.452542348902536
+    ],
+    "Groundnut": [
+      -0.2931426004562844,
+      0.2783143019095589
+    ],
+    "Kharif Sorghum": [
+      -0.38532119435766704,
+      0.3763409649399043
+    ],
+    "Maize": [
+      -0.34367265190745855,
+      0.32649619468874225
+    ],
+    "Pearl Millet": [
+      -0.3829948828194718,
+      0.379392392255268
+    ],
+    "Pigeonpea": [
+      -0.3136252708003711,
+      0.3347859630408959
+    ],
+    "Rapeseed And Mustard": [
+      -0.25185299630987196,
+      0.2693308069591563
+    ],
+    "Rice": [
+      -0.26304982005779726,
+      0.23525387120894106
+    ],
+    "Sesamum": [
+      -0.47682003501993486,
+      0.3943855669918181
+    ],
+    "Sugarcane": [
+      -0.2981025218411719,
+      0.23222472273702185
+    ],
+    "Wheat": [
+      -0.18977477525377767,
+      0.19596197379821179
+    ]
+  },
+  "ref_period": [
+    1966,
+    1989
+  ],
+  "train_years": [
+    1966,
+    2004
+  ],
+  "valid_years": [
+    2005,
+    2009
+  ],
+  "test_years": [
+    2010,
+    2015
+  ],
+  "final_trained_through": 2009
+}

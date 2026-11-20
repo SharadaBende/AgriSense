@@ -1,0 +1,15 @@
+{
+  "params": {
+    "num_leaves": 37,
+    "min_child_samples": 124,
+    "feature_fraction": 0.8614152406643687,
+    "bagging_fraction": 0.8937015931994442,
+    "lambda_l2": 11.015311109174112,
+    "objective": "huber",
+    "alpha": 0.35,
+    "bagging_freq": 1
+  },
+  "rounds": 407,
+  "cv_mae": 0.20784710859064404,
+  "trials": 12
+}

@@ -1,0 +1,25 @@
+{
+  "rows": 150556,
+  "columns": 49,
+  "rows_by_split": {
+    "train": 117660,
+    "test": 17661,
+    "valid": 15235
+  },
+  "rows_by_crop": {
+    "Rice": 14404,
+    "Maize": 13510,
+    "Chickpea": 13281,
+    "Wheat": 13202,
+    "Sugarcane": 12969,
+    "Sesamum": 12659,
+    "Pigeonpea": 12462,
+    "Groundnut": 11558,
+    "Rapeseed And Mustard": 11062,
+    "Kharif Sorghum": 10820,
+    "Pearl Millet": 9561,
+    "Barley": 7609,
+    "Cotton": 7459
+  },
+  "failure_outliers_kept": 1706
+}

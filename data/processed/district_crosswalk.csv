@@ -1,0 +1,314 @@
+dist_code,dist_name,state_name,gadm_name,match
+1,Durg,Chhattisgarh,Durg,exact
+2,Bastar,Chhattisgarh,Bastar,exact
+3,Raipur,Chhattisgarh,Raipur,exact
+4,Bilaspur,Chhattisgarh,Bilaspur,exact
+5,Raigarh,Chhattisgarh,Raigarh,exact
+6,Surguja,Chhattisgarh,Surguja,exact
+7,Jabalpur,Madhya Pradesh,Jabalpur,exact
+8,Balaghat,Madhya Pradesh,Balaghat,exact
+9,Chhindwara,Madhya Pradesh,Chhindwara,exact
+10,Narsinghpur,Madhya Pradesh,Narsinghpur,exact
+11,Seoni / Shivani,Madhya Pradesh,Seoni,exact
+12,Mandla,Madhya Pradesh,Mandla,exact
+13,Sagar,Madhya Pradesh,Sagar,exact
+14,Damoh,Madhya Pradesh,Damoh,exact
+15,Tikamgarh,Madhya Pradesh,Tikamgarh,exact
+16,Chhatarpur,Madhya Pradesh,Chhatarpur,exact
+17,Panna,Madhya Pradesh,Panna,exact
+18,Rewa,Madhya Pradesh,Rewa,exact
+19,Sidhi,Madhya Pradesh,Sidhi,exact
+20,Satna,Madhya Pradesh,Satna,exact
+21,Shahdol,Madhya Pradesh,Shahdol,exact
+22,Gwalior,Madhya Pradesh,Gwalior,exact
+23,Shivpuri,Madhya Pradesh,Shivpuri,exact
+24,Guna,Madhya Pradesh,Guna,exact
+25,Datia,Madhya Pradesh,Datia,exact
+26,Morena,Madhya Pradesh,Morena,exact
+27,Bhind,Madhya Pradesh,Bhind,exact
+28,Indore,Madhya Pradesh,Indore,exact
+29,Ratlam,Madhya Pradesh,Ratlam,exact
+30,Ujjain,Madhya Pradesh,Ujjain,exact
+31,Mandsaur,Madhya Pradesh,Mandsaur,exact
+32,Dewas,Madhya Pradesh,Dewas,exact
+33,Dhar,Madhya Pradesh,Dhar,exact
+34,Jhabua,Madhya Pradesh,Jhabua,exact
+35,Khargone / West Nimar,Madhya Pradesh,West Nimar,exact
+36,Khandwa / East Nimar,Madhya Pradesh,East Nimar,exact
+37,Sehore,Madhya Pradesh,Sehore,exact
+38,Raisen,Madhya Pradesh,Raisen,exact
+39,Vidisha,Madhya Pradesh,Vidisha,exact
+40,Betul,Madhya Pradesh,Betul,exact
+41,Rajgarh,Madhya Pradesh,Rajgarh,exact
+42,Shajapur,Madhya Pradesh,Shajapur,exact
+43,Hoshangabad,Madhya Pradesh,Hoshangabad,exact
+44,Srikakulam,Andhra Pradesh,Srikakulam,exact
+45,Visakhapatnam,Andhra Pradesh,Vishakhapatnam,exact
+46,East Godavari,Andhra Pradesh,East Godavari,exact
+47,West Godavari,Andhra Pradesh,West Godavari,exact
+48,Krishna,Andhra Pradesh,Krishna,exact
+49,Guntur,Andhra Pradesh,Guntur,exact
+50,S.P.S. Nellore,Andhra Pradesh,Nellore,fuzzy(0.82)
+51,Kurnool,Andhra Pradesh,Kurnool,exact
+52,Ananthapur,Andhra Pradesh,Anantapur,fuzzy(0.95)
+53,Kadapa YSR,Andhra Pradesh,Cuddapah,manual
+54,Chittoor,Andhra Pradesh,Chittoor,exact
+55,Hyderabad,Telangana,Hyderabad,exact
+56,Nizamabad,Telangana,Nizamabad,exact
+57,Medak,Telangana,Medak,exact
+58,Mahabubnagar,Telangana,Mahbubnagar,fuzzy(0.96)
+59,Nalgonda,Telangana,Nalgonda,exact
+60,Warangal,Telangana,Warangal,exact
+61,Khammam,Telangana,Khammam,exact
+62,Karimnagar,Telangana,Karimnagar,exact
+63,Adilabad,Telangana,Adilabad,exact
+64,Bangalore,Karnataka,Bangalore Rural|Bangalore Urban,manual
+65,Kolar,Karnataka,Kolar,exact
+66,Tumkur,Karnataka,Tumkur,exact
+67,Mysore,Karnataka,Mysore,exact
+68,Mandya,Karnataka,Mandya,exact
+69,Hassan,Karnataka,Hassan,exact
+70,Shimoge,Karnataka,Shimoga,fuzzy(0.86)
+71,Chickmagalur,Karnataka,Chikmagalur,fuzzy(0.96)
+72,Chitradurga,Karnataka,Chitradurga,exact
+73,Bellary,Karnataka,Bellary,exact
+74,Dharwad,Karnataka,Dharwad,exact
+75,Belgaum,Karnataka,Belgaum,exact
+76,Bijapur / Vijayapura,Karnataka,Bijapur,exact
+77,Bidar,Karnataka,Bidar,exact
+78,Raichur,Karnataka,Raichur,exact
+79,Gulbarga / Kalaburagi,Karnataka,Gulbarga,exact
+80,Dakshina Kannada,Karnataka,Dakshin Kannad,fuzzy(0.93)
+81,Uttara Kannada,Karnataka,Uttar Kannand,fuzzy(0.88)
+82,Kodagu / Coorg,Karnataka,Kodagu,exact
+83,Chengalpattu MGR / Kanchipuram,Tamil Nadu,Kancheepuram,fuzzy(0.87)
+84,South Arcot / Cuddalore,Tamil Nadu,Cuddalore,exact
+85,North Arcot / Vellore,Tamil Nadu,Vellore,exact
+86,Salem,Tamil Nadu,Salem,exact
+87,Coimbatore,Tamil Nadu,Coimbatore,exact
+88,Tiruchirapalli / Trichy,Tamil Nadu,Tiruchchirappalli,fuzzy(0.90)
+89,Thanjavur,Tamil Nadu,Thanjavur,exact
+90,Madurai,Tamil Nadu,Madurai,exact
+91,Ramananthapuram,Tamil Nadu,Ramanathapuram,fuzzy(0.97)
+92,Thirunelveli,Tamil Nadu,Tirunelveli Kattabo,manual
+93,The Nilgiris,Tamil Nadu,Nilgiris,fuzzy(0.84)
+94,Kanyakumari,Tamil Nadu,Kanniyakumari,fuzzy(0.92)
+95,Bombay,Maharashtra,Greater Bombay,manual
+96,Thane,Maharashtra,Thane,exact
+97,Raigad,Maharashtra,Raigarh,fuzzy(0.83)
+98,Ratnagiri,Maharashtra,Ratnagiri,exact
+99,Nasik,Maharashtra,Nashik,exact
+100,Dhule,Maharashtra,Dhule,exact
+101,Jalgaon,Maharashtra,Jalgaon,exact
+102,Ahmednagar,Maharashtra,Ahmednagar,exact
+103,Pune,Maharashtra,Pune,exact
+104,Satara,Maharashtra,Satara,exact
+105,Sangli,Maharashtra,Sangli,exact
+106,Solapur,Maharashtra,Solapur,exact
+107,Kolhapur,Maharashtra,Kolhapur,exact
+108,Aurangabad,Maharashtra,Aurangabad,exact
+109,Parbhani,Maharashtra,Parbhani,exact
+110,Beed,Maharashtra,Bid,exact
+111,Nanded,Maharashtra,Nanded,exact
+112,Osmanabad,Maharashtra,Osmanabad,exact
+113,Buldhana,Maharashtra,Buldana,fuzzy(0.93)
+114,Akola,Maharashtra,Akola,exact
+115,Amarawati,Maharashtra,Amravati,fuzzy(0.82)
+116,Yeotmal,Maharashtra,Yavatmal,exact
+117,Wardha,Maharashtra,Wardha,exact
+118,Nagpur,Maharashtra,Nagpur,exact
+119,Bhandara,Maharashtra,Bhandara,exact
+120,Chandrapur,Maharashtra,Chandrapur,exact
+121,Ahmedabad,Gujarat,Ahmadabad,fuzzy(0.89)
+122,Amreli,Gujarat,Amreli,exact
+123,Banaskantha,Gujarat,Banas Kantha,exact
+124,Bharuch,Gujarat,Bharuch,exact
+125,Vadodara / Baroda,Gujarat,Vadodara,exact
+126,Bhavnagar,Gujarat,Bhavnagar,exact
+127,Valsad,Gujarat,Valsad,exact
+128,Dangs,Gujarat,The Dangs,exact
+129,Jamnagar,Gujarat,Jamnagar,exact
+130,Junagadh,Gujarat,Junagadh,exact
+131,Kheda,Gujarat,Kheda,exact
+132,Kutch,Gujarat,Kachchh,exact
+133,Mehsana,Gujarat,Mahesana,fuzzy(0.80)
+134,Panchmahal,Gujarat,Panch Mahals,fuzzy(0.95)
+135,Rajkot,Gujarat,Rajkot,exact
+136,Sabarkantha,Gujarat,Sabar Kantha,exact
+137,Surat,Gujarat,Surat,exact
+138,Surendranagar,Gujarat,Surendranagar,exact
+139,Ajmer,Rajasthan,Ajmer,exact
+140,Alwar,Rajasthan,Alwar,exact
+141,Banswara,Rajasthan,Banswara,exact
+142,Barmer,Rajasthan,Barmer,exact
+143,Bharatpur,Rajasthan,Bharatpur,exact
+144,Bhilwara,Rajasthan,Bhilwara,exact
+145,Bikaner,Rajasthan,Bikaner,exact
+146,Bundi,Rajasthan,Bundi,exact
+147,Chittorgarh,Rajasthan,Chittaurgarh,fuzzy(0.87)
+148,Churu,Rajasthan,Churu,exact
+149,Dungarpur,Rajasthan,Dungarpur,exact
+150,Ganganagar,Rajasthan,Ganganagar,exact
+151,Jaipur,Rajasthan,Jaipur,exact
+152,Jaisalmer,Rajasthan,Jaisalmer,exact
+153,Jalore,Rajasthan,Jalor,fuzzy(0.91)
+154,Jhalawar,Rajasthan,Jhalawar,exact
+155,Jhunjhunu,Rajasthan,Jhunjhunun,exact
+156,Jodhpur,Rajasthan,Jodhpur,exact
+157,Kota,Rajasthan,Kota,exact
+158,Nagaur,Rajasthan,Nagaur,exact
+159,Pali,Rajasthan,Pali,exact
+160,Swami Madhopur,Rajasthan,Sawai Madhopur,fuzzy(0.92)
+161,Sikar,Rajasthan,Sikar,exact
+162,Sirohi,Rajasthan,Sirohi,exact
+163,Tonk,Rajasthan,Tonk,exact
+164,Udaipur,Rajasthan,Udaipur,exact
+165,Gurdaspur,Punjab,Gurdaspur,exact
+166,Amritsar,Punjab,Amritsar,exact
+167,Kapurthala,Punjab,Kapurthala,exact
+168,Jalandhar,Punjab,Jalandhar,exact
+169,Hoshiarpur,Punjab,Hoshiarpur,exact
+170,Roopnagar / Ropar,Punjab,Rupnagar,fuzzy(0.82)
+171,Ludhiana,Punjab,Ludhiana,exact
+172,Ferozpur,Punjab,Firozpur,fuzzy(0.88)
+174,Bhatinda,Punjab,Bathinda,exact
+175,Sangrur,Punjab,Sangrur,exact
+176,Patiala,Punjab,Patiala,exact
+177,Hissar,Haryana,Hisar,fuzzy(0.91)
+180,Gurgaon,Haryana,Gurgaon,exact
+181,Jind,Haryana,Jind,exact
+182,Mahendragarh / Narnaul,Haryana,Mahendragarh,exact
+183,Ambala,Haryana,Ambala,exact
+184,Karnal,Haryana,Karnal,exact
+186,Rohtak,Haryana,Rohtak,exact
+189,Saharanpur,Uttar Pradesh,Saharanpur,exact
+190,Muzaffarnagar,Uttar Pradesh,Muzaffarnagar,exact
+191,Meerut,Uttar Pradesh,Meerut,exact
+192,Buland Shahar,Uttar Pradesh,Bulandshahr,fuzzy(0.96)
+194,Aligarh,Uttar Pradesh,Aligarh,exact
+195,Mathura,Uttar Pradesh,Mathura,exact
+196,Agra,Uttar Pradesh,Agra,exact
+197,Mainpuri,Uttar Pradesh,Mainpuri,exact
+198,Etah,Uttar Pradesh,Etah,exact
+199,Bareilly,Uttar Pradesh,Bareilly,exact
+200,Budaun,Uttar Pradesh,Badaun,fuzzy(0.83)
+201,Moradabad,Uttar Pradesh,Moradabad,exact
+202,Shahjahanpur,Uttar Pradesh,Shahjahanpur,exact
+203,Pilibhit,Uttar Pradesh,Pilibhit,exact
+204,Rampur,Uttar Pradesh,Rampur,exact
+205,Bijnor,Uttar Pradesh,Bijnor,exact
+206,Farrukhabad,Uttar Pradesh,Farrukhabad,exact
+207,Etawah,Uttar Pradesh,Etawah,exact
+208,Kanpur,Uttar Pradesh,Kanpur,exact
+209,Fatehpur,Uttar Pradesh,Fatehpur,exact
+210,Allahabad,Uttar Pradesh,Allahabad,exact
+211,Jhansi,Uttar Pradesh,Jhansi,exact
+213,Jalaun,Uttar Pradesh,Jalaun,exact
+214,Hamirpur,Uttar Pradesh,Hamirpur,exact
+215,Banda,Uttar Pradesh,Banda,exact
+216,Varanasi,Uttar Pradesh,Varanasi,exact
+217,Mirzpur,Uttar Pradesh,Mirzapur,fuzzy(0.93)
+218,Jaunpur,Uttar Pradesh,Jaunpur,exact
+219,Ghazipur,Uttar Pradesh,Ghazipur,exact
+220,Ballia,Uttar Pradesh,Ballia,exact
+221,Gorakhpur,Uttar Pradesh,Gorakhpur,exact
+222,Deoria,Uttar Pradesh,Deoria,exact
+223,Basti,Uttar Pradesh,Basti,exact
+224,Azamgarh,Uttar Pradesh,Azamgarh,exact
+225,Lucknow,Uttar Pradesh,Lucknow,exact
+226,Unnao,Uttar Pradesh,Unnao,exact
+227,Rae-Bareily,Uttar Pradesh,Rae Bareli,fuzzy(0.84)
+228,Sitapur,Uttar Pradesh,Sitapur,exact
+229,Hardoi,Uttar Pradesh,Hardoi,exact
+230,Kheri,Uttar Pradesh,Lakhimpur Kheri,exact
+231,Faizabad,Uttar Pradesh,Faizabad,exact
+232,Gonda,Uttar Pradesh,Gonda,exact
+233,Bahraich,Uttar Pradesh,Bahraich,exact
+234,Sultanpur,Uttar Pradesh,Sultanpur,exact
+235,Pratapgarh,Uttar Pradesh,Pratapgarh,exact
+236,Barabanki,Uttar Pradesh,Bara Banki,exact
+237,Nainital,Uttarakhand,Naini Tal,exact
+238,Almorah,Uttarakhand,Almora,fuzzy(0.92)
+239,Pithorgarh,Uttarakhand,Pithoragarh,fuzzy(0.95)
+240,Chamoli,Uttarakhand,Chamoli,exact
+241,Uttar Kashi,Uttarakhand,Uttarkashi,exact
+242,Tehri Garhwal,Uttarakhand,Tehri Garhwal,exact
+243,Garhwal,Uttarakhand,Pauri Garhwal,exact
+244,Dehradun,Uttarakhand,Dehra Dun,exact
+601,Cachar,Assam,Cachar,exact
+602,Darrang,Assam,Darrang,exact
+603,Dibrugarh,Assam,Dibrugarh,exact
+604,Goalpara,Assam,Goalpara,exact
+605,Kamrup,Assam,Kamrup,exact
+606,Karbi Anglong,Assam,Karbi Anglong,exact
+607,Lakhimpur,Assam,Lakhimpur,exact
+608,North Cachar Hil / Dima hasao,Assam,North Cachar Hills,fuzzy(0.93)
+609,Nagaon,Assam,Nagaon,exact
+610,Sibsagar,Assam,Sibsagar,exact
+626,Bilashpur,Himachal Pradesh,Bilaspur,fuzzy(0.94)
+627,Chamba,Himachal Pradesh,Chamba,exact
+629,Kangra,Himachal Pradesh,Kangra,exact
+630,Kinnaur,Himachal Pradesh,Kinnaur,exact
+631,Kullu,Himachal Pradesh,Kullu,exact
+632,Lahul & Spiti,Himachal Pradesh,Lahul and Spiti,fuzzy(0.87)
+633,Solan,Himachal Pradesh,Solan,exact
+634,Mandi,Himachal Pradesh,Mandi,exact
+635,Shimla,Himachal Pradesh,Shimla,exact
+636,Sirmaur,Himachal Pradesh,Sirmaur,exact
+651,Alappuzha,Kerala,Alappuzha,exact
+652,Kannur,Kerala,Kannur,exact
+653,Eranakulam,Kerala,Ernakulam,fuzzy(0.95)
+655,Kottayam,Kerala,Kottayam,exact
+656,Kozhikode,Kerala,Kozhikode,exact
+657,Malappuram,Kerala,Malappuram,exact
+658,Palakkad,Kerala,Palakkad,exact
+659,Kollam,Kerala,Kollam,exact
+660,Thrissur,Kerala,Thrissur,exact
+661,Thiruvananthapuram,Kerala,Thiruvananthapuram,exact
+701,Balasore,Odisha,Baleshwar,manual
+702,Bolangir,Odisha,Bolangir,exact
+703,Cuttack,Odisha,Cuttack,exact
+704,Dhenkanal,Odisha,Dhenkanal,exact
+705,Ganjam,Odisha,Ganjam,exact
+706,Kalahandi,Odisha,Kalahandi,exact
+707,Keonjhar,Odisha,Keonjhar,exact
+708,Koraput,Odisha,Koraput,exact
+709,Mayurbhanja,Odisha,Mayurbhanj,fuzzy(0.95)
+710,Phulbani ( Kandhamal ),Odisha,Kandhamal,fuzzy(0.94)
+711,Puri,Odisha,Puri,exact
+712,Sambalpur,Odisha,Sambalpur,exact
+713,Sundargarh,Odisha,Sundargarh,exact
+800,24 Parganas,West Bengal,North 24 Parganas|South 24 Parganas,manual
+803,Nadia,West Bengal,Nadia,exact
+804,Murshidabad,West Bengal,Murshidabad,exact
+805,Burdwan,West Bengal,Barddhaman,manual
+806,Birbhum,West Bengal,Birbhum,exact
+807,Bankura,West Bengal,Bankura,exact
+810,Hooghly,West Bengal,Hugli,manual
+811,Howrah,West Bengal,Haora,manual
+812,Jalpaiguri,West Bengal,Jalpaiguri,exact
+813,Darjeeling,West Bengal,Darjiling,fuzzy(0.84)
+814,Malda,West Bengal,Maldah,fuzzy(0.91)
+816,Cooch Behar,West Bengal,Kochbihar,manual
+817,Purulia,West Bengal,Puruliya,fuzzy(0.93)
+818,Midnapur,West Bengal,East Midnapore|West Midnapore,manual
+821,Kolkata,West Bengal,Kolkata,exact
+822,West Dinajpur,West Bengal,Uttar Dinajpur|Dakshin Dinajpur,manual
+901,Champaran,Bihar,Pashchim Champaran|Purba Champaran,manual
+902,Muzaffarpur,Bihar,Muzaffarpur,exact
+903,Darbhanga,Bihar,Darbhanga,exact
+904,Saharsa,Bihar,Saharsa,exact
+905,Purnea,Bihar,Purnia,exact
+906,Saran,Bihar,Saran,exact
+907,Patna,Bihar,Patna,exact
+908,Mungair,Bihar,Munger,manual
+909,Bhagalpur,Bihar,Bhagalpur,exact
+910,Santhal Paragana / Dumka,Jharkhand,Dumka,exact
+911,Shahabad (now part of Bhojpur district),Bihar,Bhojpur|Buxar|Rohtas,manual
+912,Gaya,Bihar,Gaya,exact
+913,Hazaribagh,Jharkhand,Hazaribag,fuzzy(0.95)
+914,Dhanbad,Jharkhand,Dhanbad,exact
+915,Palamau,Jharkhand,Palamu,fuzzy(0.92)
+916,Ranchi,Jharkhand,Ranchi,exact
+917,Singhbhum,Jharkhand,Pashchim Singhbhum|Purba Singhbhum|Saraikela Kharsawan,manual
+999,Chennai,Tamil Nadu,Chennai,exact

@@ -1,0 +1,23 @@
+{
+  "districts": 313,
+  "states": 20,
+  "years": [
+    1966,
+    2017
+  ],
+  "crop": {
+    "crop_district_year_cells": 371358,
+    "dropped_not_grown_or_missing": 130494,
+    "dropped_area_without_production": 11948,
+    "dropped_production_without_area": 991,
+    "kept_observations": 227925,
+    "yield_mismatch_gt5pct": 1326,
+    "flagged_outliers": 3937
+  },
+  "rainfall": {
+    "rainfall_rows": 14527,
+    "all_zero_or_missing_year": 48,
+    "annual_sum_vs_reported_within_2pct": 99.8,
+    "rows_with_valid_annual": 13921
+  }
+}

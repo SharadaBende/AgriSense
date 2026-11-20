@@ -1,0 +1,131 @@
+{
+  "district_crop_pairs": 4266,
+  "districts_tiered": 309,
+  "silhouette_by_k": {
+    "2": 0.49417899346667893,
+    "3": 0.4819053113897493,
+    "4": 0.46584686882570986,
+    "5": 0.4208546183716754
+  },
+  "tier_counts": {
+    "Medium": 163,
+    "High": 101,
+    "Low": 45
+  },
+  "tier_profile": {
+    "High": {
+      "cv": 0.328,
+      "downside": 0.304,
+      "cvar10": 0.519,
+      "risk_score": 66.866
+    },
+    "Low": {
+      "cv": 0.169,
+      "downside": 0.147,
+      "cvar10": 0.288,
+      "risk_score": 23.205
+    },
+    "Medium": {
+      "cv": 0.239,
+      "downside": 0.235,
+      "cvar10": 0.4,
+      "risk_score": 44.969
+    }
+  },
+  "failure_events": 13933,
+  "failure_events_in_known_drought_years_pct": 24.4,
+  "known_drought_years_share_of_years_pct": 13.5,
+  "failure_with_spi_lt_-1_pct": 31.6,
+  "top_risk_districts": [
+    {
+      "dist_name": "Palamau",
+      "state_name": "Jharkhand",
+      "risk_score": 84.85000000000001
+    },
+    {
+      "dist_name": "Pali",
+      "state_name": "Rajasthan",
+      "risk_score": 83.19999999999999
+    },
+    {
+      "dist_name": "Solan",
+      "state_name": "Himachal Pradesh",
+      "risk_score": 82.9923076923077
+    },
+    {
+      "dist_name": "Bilashpur",
+      "state_name": "Himachal Pradesh",
+      "risk_score": 81.88333333333334
+    },
+    {
+      "dist_name": "Lahul & Spiti",
+      "state_name": "Himachal Pradesh",
+      "risk_score": 81.06
+    },
+    {
+      "dist_name": "Dhanbad",
+      "state_name": "Jharkhand",
+      "risk_score": 79.6875
+    },
+    {
+      "dist_name": "Ajmer",
+      "state_name": "Rajasthan",
+      "risk_score": 79.52
+    },
+    {
+      "dist_name": "Osmanabad",
+      "state_name": "Maharashtra",
+      "risk_score": 78.54736842105264
+    }
+  ],
+  "safest_districts": [
+    {
+      "dist_name": "Goalpara",
+      "state_name": "Assam",
+      "risk_score": 4.65
+    },
+    {
+      "dist_name": "Karbi Anglong",
+      "state_name": "Assam",
+      "risk_score": 7.1
+    },
+    {
+      "dist_name": "Nagaon",
+      "state_name": "Assam",
+      "risk_score": 7.484615384615385
+    },
+    {
+      "dist_name": "Darrang",
+      "state_name": "Assam",
+      "risk_score": 8.330769230769231
+    },
+    {
+      "dist_name": "Kamrup",
+      "state_name": "Assam",
+      "risk_score": 9.846153846153847
+    },
+    {
+      "dist_name": "Cachar",
+      "state_name": "Assam",
+      "risk_score": 11.591666666666667
+    },
+    {
+      "dist_name": "Sibsagar",
+      "state_name": "Assam",
+      "risk_score": 13.040000000000001
+    },
+    {
+      "dist_name": "North Cachar Hil / Dima hasao",
+      "state_name": "Assam",
+      "risk_score": 15.30909090909091
+    }
+  ],
+  "drought_loss_median_by_crop_pct": {
+    "Safflower": 12.8,
+    "Pearl Millet": 11.4,
+    "Soyabean": 11.2,
+    "Rabi Sorghum": 9.9,
+    "Rice": 9.3,
+    "Chickpea": 7.9
+  }
+}

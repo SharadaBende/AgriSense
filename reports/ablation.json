@@ -1,0 +1,20 @@
+{
+  "history + location only (no weather)": {
+    "n_features": 20,
+    "valid_skill_pct": 4.175836267491961,
+    "test_skill_pct": 1.8272431666640832,
+    "test_R2_deviation": 0.04931150901246317
+  },
+  "weather + location only (no yield history except baseline)": {
+    "n_features": 27,
+    "valid_skill_pct": -0.08325900426853217,
+    "test_skill_pct": 0.4349022181303064,
+    "test_R2_deviation": 0.06990906750089254
+  },
+  "full model (history + weather)": {
+    "n_features": 41,
+    "valid_skill_pct": 4.281510156539781,
+    "test_skill_pct": 4.181907315914879,
+    "test_R2_deviation": 0.11281563454146404
+  }
+}
